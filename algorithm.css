@@ -1,0 +1,28 @@
+#algorithm_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 60%;
+    margin: 70px auto 0;
+}
+.algorithm_item {
+    border-radius: 100px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.algorithm_item:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 3px gray;
+    font-weight: bold;
+}
